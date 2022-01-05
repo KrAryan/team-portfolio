@@ -1,0 +1,36 @@
+.skill-tag {
+    padding: 0.5rem;
+    padding-inline: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(var(--rgb), 0.5);
+}
+.skill-tag:hover {
+    background-color: rgba(var(--rgb), 1);
+}
+.purplebg { --rgb: 184, 41, 184; } 
+.greenbg { --rgb: 64, 255, 47; }
+.bluebg { --rgb: 53, 53, 201; }
+.redbg { --rgb: 212, 63, 63; }
+.greybg { --rgb: 202, 202, 202; }
+
+.project-btn {
+    display: block;
+    border: none;
+    width: 100%;
+    text-align: start;
+    margin-top: 0.5rem;
+}
+
+.social {
+    padding: 0.5rem;
+    padding-inline: 0.9rem;
+    color: black;
+    border-radius: 50%;
+}
+.social:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+.project-panel {
+    background-color: rgba(var(--rgb), 0.1);
+}
