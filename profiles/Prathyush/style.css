@@ -1,0 +1,187 @@
+.video-background{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width:auto;
+  height:auto;
+  z-index = -1;
+  zoom:25%;
+}
+
+@media (min-aspect-ratio: 16/9){
+  .video-background{
+    width:auto;
+    height:auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9){
+  .video-background{
+    width:auto;
+    height:auto;
+  }
+}
+
+
+h1{
+  color:rgba(22, 22, 22, 0.87)
+  
+}
+p{
+  position:relative;
+  top:-40px;
+  color: rgb(44, 43, 43);
+}
+
+
+.text{
+  position:absolute;
+  top: 37%;
+  left:32%;
+  padding:10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.links{
+  position:absolute;
+  top: 53%;
+  left:31%;
+  padding:10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  height: 100vh;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size:24px;
+}
+
+
+.name{
+  background: linear-gradient(to right, rgb(255, 136, 0) , yellow, rgb(6, 233, 6), cyan, rgb(22, 18, 255), rgb(247, 127, 247));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+#image{
+  top:420px;
+  left:470px;
+  border: 1px solid #000;
+  border-radius: 40px;
+  box-shadow: rgb(53, 52, 52) 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 5px 10px 0; 
+  overflow:visible; 
+  touch-action: manipulation; 
+  user-select: none; 
+  -webkit-user-select: none; 
+  vertical-align: middle; 
+  white-space: nowrap;
+}
+
+#image:focus {
+  text-decoration: none;
+}
+
+
+#image:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+#image:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+.twitter{
+  text-align: center;
+  margin: auto;
+  left: 603px!important;
+  height:100px;
+  width:100px;
+}
+
+.youtube{
+  left:732px!important;
+  height:100px;
+  width:100px;
+  top: 560px!important;
+
+}
+
+.linkedin{
+  left:863px!important;
+  height:100px;
+  width:100px;
+}
+
+.instagram{
+  left:732px!important;
+  height:100px;
+  width:100px;
+}
+
+.github:hover {
+  text-decoration: none;
+  background-color:rgb(23,21,21);opacity:0.8;
+}
+
+.twitter:hover{
+  background-color:rgb(29, 161, 242);opacity:0.8;
+}
+
+.youtube:hover{
+  background-color:rgb(223, 46, 39);opacity:0.8;
+}
+
+.steam{
+  height:100px;
+  width:100px;
+}
+
+.github{
+  height:100px;
+  width:100px;
+}
+
+
+.linkedin:hover{
+  background-color:rgb(1, 84, 129);opacity:0.8;
+}
+
+.instagram:hover{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+
+.steam:hover{
+  background-color:rgb(31, 41, 66);opacity:0.8;
+}
+
+.links{
+  position: absolute !important;
+  text-align: center;
+  margin: auto;
+}
+
+a{
+  color:transparent
+}
+
+
